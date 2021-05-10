@@ -1,0 +1,32 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+img {
+    max-width: 100px;
+}
+form {
+    background-color: #DFDFDF;
+    display: flex;
+    // flex-wrap: wrap;
+    width: 300px;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid #707070 1px;
+    .field, input {
+        width: 100%;
+    }
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .nameage {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    p {
+        font-size: 20px
+    }
+}

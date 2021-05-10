@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+john:
+  email: test1@gmail.com
+  password_digest: <%= BCrypt::Password.create('Test123') %>
+  name: John
+  age: 23
+  bio: I like snacks
+  # image: <%= File.open Rails.root.join('test', 'fixtures', 'files', 'image.png').to_s %>
+
+steve:
+  email: test2@gmail.com
+  password_digest: <%= BCrypt::Password.create('Test123') %>
+  name: Steve
+  age: 25
+  bio: I like biking
+  # image: <%= File.open Rails.root.join('test', 'fixtures', 'files', 'image.png').to_s %>
+
+kyler:
+  email: test3@gmail.com
+  password_digest: <%= BCrypt::Password.create('Test123') %>
+  name: Kyler
+  age: 28
+  bio: I like energy drinks
+  # image: <%= File.open Rails.root.join('test', 'fixtures', 'files', 'image.png').to_s %>
+
+chad:
+  email: test4@gmail.com
+  password_digest: <%= BCrypt::Password.create('Test123') %>
+  name: Chad
+  age: 21
+  bio: I like PARTY
+  # image: <%= File.open Rails.root.join('test', 'fixtures', 'files', 'image.png').to_s %>

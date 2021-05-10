@@ -1,0 +1,34 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    color: #707070;
+    display: flex;
+    flex-direction: column;
+}
+.userContainer {
+    margin-top: 20px;
+} 
+.userCard {
+    background-color: #DFDFDF;
+    display: flex;
+    // flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid #707070 1px;
+    img {
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    .nameage {
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    p {
+        font-size: 20px
+    }
+}

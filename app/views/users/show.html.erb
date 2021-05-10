@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <h2>Email:</h2>
+  <span class="email"><%= @user.email %></span>
+</p>
+
+<p>
+  <h2>Profile:</h2>
+  <h4><%= @user.name%></h4>
+  <h4>Age <%= @user.age%></h4>
+  <h4><%= @user.bio%></h4>
+  <% if @user.image.attached? %>
+    <%= image_tag @user.image %>
+  <% end %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
